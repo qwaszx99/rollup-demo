@@ -1,0 +1,35 @@
+{
+  "name": "roll-demo",
+  "version": "1.0.0",
+  "description": "rollup使用样例",
+  "keywords": [
+    "rollup",
+    "react"
+  ],
+  "author": "sheng",
+  "license": "ISC",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "less": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.28.0",
+    "rollup-plugin-less": "^1.1.3",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../src/index.js"],"sourcesContent":["import React from \"react\";\r\nimport \"./index.less\";\r\n\r\nexport default function () {\r\n  return <div className=\"page\">mmmm</div>;\r\n}\r\n"],"names":["React","createElement","className"],"mappings":"mDAGe,WACb,OAAOA,EAAAC,cAAA,MAAA,CAAKC,UAAU,QAAO,OAC/B"}
